@@ -79,10 +79,10 @@ The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com
 analyzer = SentimentIntensityAnalyzer()
 df['Vader_Score'] = df['Cleaned_Text'].apply(lambda text: analyzer.polarity_scores(text)['compound'])
 df['Sentiment'] = df['Vader_Score'].apply(lambda score: 'positive' if score >= 0.05 else ('negative' if score <= -0.05 else 'neutral'))
-
 ```
 
   - Word Cloud Visualization:
+     
     - Create a word cloud visualization of the cleaned text, showing the most frequently occurring words.
 
 
