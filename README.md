@@ -109,15 +109,70 @@ The modeling process involves:
 
 ## Analyze & Visualization
 The analysis includes:
-1. **Sentiment Distribution**: A pie chart showing the overall distribution of positive, neutral, and negative sentiments.
-2. **Temporal Analysis**:
+1. **Sentiment Distribution**: A donut chart showing the overall distribution of positive, neutral, and negative sentiments.
+
+| Python Code | Result |
+|----------|----------|
+| ![](sentimentcode.png) | ![](sentimentanalysis.png) |
+3. **Temporal Analysis**:
    - Year-wise sentiment distribution: Bar charts showing the number of posts per year categorized by sentiment.
+     | Python Code | Result |
+     |----------|----------|
+     | ![](temporalcode.png) | ![](temporalanalysis1.png) |
    - Month-wise sentiment distribution: Bar charts showing the number of posts per month categorized by sentiment.
+     | Python Code | Result |
+     |----------|----------|
+     | ![](temporalcode2.png) | ![](temporalanalysis2.png) |
    - Day of the week sentiment distribution: Bar charts showing the number of posts per day of the week categorized by sentiment.
-3. **User Behavior Insights**: Analyzing user engagement metrics such as likes and retweets to identify the most engaging content and active users.
-4. **Platform-Specific Analysis**: Comparing sentiment distributions across different social media platforms.
-5. **Hashtag Trends**: Identifying the most frequently used hashtags and common words in the dataset.
-6. **Geographical Analysis**: Analyzing sentiment distribution across different countries.
+     | Python Code | Result |
+     |----------|----------|
+     | ![](temporalcode3.png) | ![](temporalanalysis3.png) |
+4. **User Behavior Insights**: Analyzing user engagement metrics such as likes and retweets to identify the most engaging content and active users.
+   - User Engagement : Scatter Plot.
+     | Python Code | Result |
+     |----------|----------|
+     | ![](userbehaviorcode1.png) | ![](userbehavior1.png) |
+   - Top 10 User By Like : Bar Chart.
+     | Python Code | Result |
+     |----------|----------|
+     | ![](userbehaviorcode2.png) | ![](userbehavior2.png) |
+   - Top 10 User by Retweets : Bar Chart.
+     | Python Code | Result |
+     |----------|----------|
+     | ![](userbehaviorcode3.png) | ![](userbehavior3.png) |
+   - Yearly Engagement Summary : Bar Chart.
+     | Python Code | Result |
+     |----------|----------|
+     | ![](userbehaviorcode4.png) | ![](userbehavior4.png) |
+5. **Platform-Specific Analysis**: Comparing sentiment distributions across different social media platforms.
+     | Python Code | Result |
+     |----------|----------|
+     | ![](platformcode.png) | ![](platformanalysis.png) |
+6. **Hashtag Trends**: Identifying the most frequently used hashtags and common words in the dataset.
+   - Top Hastag : Bar Chart & Generate WordCloud
+     | Python Code | Result |
+     |----------|----------|
+     | ![](trendcode1.png) | ![](trendanalysis1.png) |
+
+     | Python Code | Result |
+     |----------|----------|
+     | ![](trendcode2.png) | ![](trendanalysis2.png) |
+
+   - Top Common Word : Bar Chart & Generate WordCloud
+     | Python Code | Result |
+     |----------|----------|
+     | ![](trendcode3.png) | ![](trendanalysis3.png) |
+
+     | Python Code | Result |
+     |----------|----------|
+     | ![](trendcode4.png) | ![](trendanalysis4.png) |
+
+7. **Geographical Analysis**: Analyzing sentiment distribution across different countries.
+     | Python Code | Result |
+     |----------|----------|
+     | ![](geographicalcode.png) | ![](geographicalanalysis.png) |
+
+You can see the report here [Google Colab]()
 
 ## Conclusion & Recommendations
 This sentiment analysis provides valuable insights into public opinion and engagement across social media platforms. Key findings include:
